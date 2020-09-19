@@ -28,6 +28,9 @@ if(this.state.isClicked === false) {
       <img
       src={this.props.galleryItem.path}
        onClick={this.clickImage}/>
+        <div className="middle">
+      <div className="text">Click Image</div>
+  </div>
       <Likes 
       galleryItem={this.props}
       likeClick={this.props.likeClick}
