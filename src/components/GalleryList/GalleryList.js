@@ -1,13 +1,25 @@
 import React, { Component } from 'react';
-
+import GalleryItem from '../GalleryItem/GalleryItem';
+import './GalleryList.css'
 class GalleryList extends Component {
+  state = {
+    galleryList: []
+  }
+  
+
   render() {
-    console.log(this.props.path);
+    console.log(this.props);
     return (
      <div>
-         <div>
-           <img height="200" width="250" src={this.props.path}></img>
-         </div>
+            {this.props.galleryList.map(galleryItem =>
+        <GalleryItem 
+          key={galleryItem.id}
+          id={galleryItem.id}
+          path={galleryItem.path}
+          description={galleryItem.description}
+          likes={galleryItem.likes}
+        />
+        )}
      </div>
     );
   }
