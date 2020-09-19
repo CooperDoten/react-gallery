@@ -7,7 +7,7 @@ class GalleryList extends Component {
     //this is what we got! its an array of objects
     console.log(this.props);
     return (
-     <div>
+     <div className="GalleryDiv">
         {this.props.galleryList.map(galleryItem =>
           <GalleryItem 
           //loop over props.galleryList array

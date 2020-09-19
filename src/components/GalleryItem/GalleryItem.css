@@ -1,6 +1,7 @@
 
 .imageDiv{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     margin: 20px;
     height: 250px;
     width: 250px;
@@ -10,10 +11,12 @@
 img{
     height: 200px;
     width: 250px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .descriptionDiv{
-    display: inline-block;
+    display: flex;
     height: 200px;
     width: 250px;
     font-size: 30px;

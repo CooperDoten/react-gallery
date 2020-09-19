@@ -9,7 +9,7 @@ likeClick = () => {
         return(
             <div className="likesDiv">
                 <div> 
-                    <button onClick={() => this.props.likeClick(this.props.galleryItem.galleryItem.id)}>Love it!</button>
+                    <button className="likeButton" onClick={() => this.props.likeClick(this.props.galleryItem.galleryItem.id)}>Love it!</button>
                 Likes: 
                     <span>
                         {this.props.galleryItem.galleryItem.likes}

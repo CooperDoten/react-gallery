@@ -10,14 +10,13 @@ state={
     console.log('clicked this image', this.props.galleryItem.id);
     this.setState({
       isClicked: !this.state.isClicked
-    })
-    
+    })  
   }
 
   
   render() {
     //this is what we got ITS AN OBJECT
-    console.log(this.props, this.props.likeClick)   
+    console.log(this.props)   
 
 if(this.state.isClicked === false) {
   return (
