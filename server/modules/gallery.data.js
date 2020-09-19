@@ -5,7 +5,8 @@ const galleryItems = [
     { id: 4, path: 'images/bladerunnerThree.jpg', description: 'Photo of Tyrell Corp', likes: 0 },
     { id: 5, path: 'images/duneOne.jpeg', description: 'Photo of Dune character', likes: 0 },
     { id: 6, path: 'images/duneTwo.jpg', description: 'Photo of Paul, hanging his head', likes: 0 },
-    { id: 7, path: 'images/duneFour.jpeg', description: 'Photo of Giant Dune Worm', likes: 0 }
+    { id: 7, path: 'images/duneFour.jpeg', description: 'Photo of Giant Dune Worm', likes: 0 },
+    { id: 8, path: 'images/jacoPastorius.jpg', description: 'Photo of Jaco Pastorius playing bass', likes: 0 }
 ];
 
 module.exports = galleryItems;

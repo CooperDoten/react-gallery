@@ -1,0 +1,22 @@
+
+.imageDiv{
+    display: inline-block;
+    margin: 20px;
+    height: 250px;
+    width: 250px;
+   
+}
+
+img{
+    height: 200px;
+    width: 250px;
+}
+
+.descriptionDiv{
+    display: inline-block;
+    height: 200px;
+    width: 250px;
+    font-size: 30px;
+}
+
+

@@ -2,23 +2,21 @@ import React, { Component } from 'react';
 import GalleryItem from '../GalleryItem/GalleryItem';
 import './GalleryList.css'
 class GalleryList extends Component {
-  state = {
-    galleryList: []
-  }
-  
 
   render() {
+    //this is what we got! its an array of objects
     console.log(this.props);
     return (
      <div>
-            {this.props.galleryList.map(galleryItem =>
-        <GalleryItem 
-          key={galleryItem.id}
-          id={galleryItem.id}
-          path={galleryItem.path}
-          description={galleryItem.description}
-          likes={galleryItem.likes}
-        />
+        {this.props.galleryList.map(galleryItem =>
+          <GalleryItem 
+          //loop over props.galleryList array
+          //add distinct key
+            key={galleryItem.id}
+            //tell galleryItem it has access to an object
+            galleryItem={galleryItem}
+            likeClick={this.props.likeClick}
+          />
         )}
      </div>
     );
