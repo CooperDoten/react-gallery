@@ -19,17 +19,18 @@ I componetized the Gallery-list, item and like div/button and made each picture 
 
 Prerequisites
 
---npm install
---npm install nodemon --global
+npm install
+npm install nodemon --global
 
 ## Start up Application
 
 npm run client
 npm run server
 
+## Usage
 
---click 'love it' button to add likes to images
---click image to view description of photo
+click 'love it' button to add likes to images
+click image to view description of photo
 
 
 ## Built with
