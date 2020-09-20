@@ -14,6 +14,7 @@ I componetized the Gallery-list, item and like div/button and made each picture 
 
 ## Screenshot
 
+![Screenshot](./AppScreenshot.png?raw=true)
 
 
 
