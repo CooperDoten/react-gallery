@@ -59,10 +59,8 @@ likeClick = (imageId) => {
         <GalleryList 
         //pass the galleryList state to 
         //GalleryList component via props
-          galleryList= 
-          {this.state.galleryList}
-          likeClick = {this.likeClick}
-        />
+          galleryList= {this.state.galleryList}
+          likeClick = {this.likeClick} />
       </div>
     );
   }
