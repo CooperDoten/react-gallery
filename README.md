@@ -3,10 +3,6 @@
 _Duration_: Weekend Project
 
 
-
-
-Directly above this is how long it took you to develop the project. Your project description goes here. What problem did you solve? How did you solve it?
-
 For this project I built a react app that diplayed an image gallery.  Each image has a "love it" button that updates the amount of likes that it has. 
 
 I componetized the Gallery-list, item and like div/button and made each picture hoverable, so the user knows that they can click it. On click the user can read a description of the image they are looking.
