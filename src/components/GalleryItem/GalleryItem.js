@@ -27,6 +27,7 @@ if(this.state.isClicked === false) {
     */}
         <img
         src={this.props.galleryItem.path}
+        alt={this.props.galleryItem.description}
         onClick={this.clickImage}/>
           <div className="middle">
             <div className="text">Click Image</div>
